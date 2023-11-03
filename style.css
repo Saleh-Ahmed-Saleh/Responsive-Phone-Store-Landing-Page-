@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: sans-serif;    
+}
+
+.container{
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.logo{
+    width: 40px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.4) ;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 400;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.content .image .img{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.content .image .img:hover{
+    width: 80%;
+    transform:scale(1.2) ;
+}
+
+.content .text{
+    width: 40%;
+    color:white;
+}
+
+.content .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.content .text p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.content .text a{
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border-color: #fff;
+}
+
+.content .text a:hover{
+    background-color: transparent;
+    color: #fff;
+    scale: (1.1);
+    font-style: bold;
+}
+
+
+.content .image{
+    width: 30%;
+}
+.content .image img{
+    width: 80%;
+}
+
+.icons{
+    position: absolute;
+    bottom: 20px;
+    right:400px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.icons img {
+    width: 40px;
+    transition: 0.2s;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.icons img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
